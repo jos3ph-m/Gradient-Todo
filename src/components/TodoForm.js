@@ -3,6 +3,10 @@ import React, { useState } from 'react';
 function TodoForm(props) {
   const [input, setInput] = useState('');
 
+  const handleChange = (e) => {
+    setInput(e.target.value);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -20,6 +24,7 @@ function TodoForm(props) {
         value={input}
         name="text"
         className="todo-input"
+        onChange={handleChange}
       />
       <button className="todo-button">Add todo</button>
     </form>
