@@ -12,6 +12,7 @@ function TodoForm() {
         name="text"
         className="todo-input"
       />
+      <button className="todo-button">Add todo</button>
     </form>
   );
 }
