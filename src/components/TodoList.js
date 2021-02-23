@@ -12,6 +12,7 @@ function TodoList() {
     const newTodos = [todo, ...todos];
 
     setTodos(newTodos);
+    console.log(...todos);
   };
 
   return (
