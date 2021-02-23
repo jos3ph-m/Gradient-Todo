@@ -6,7 +6,7 @@ function TodoList() {
 
   return (
     <div>
-      <h1>TodoList</h1>
+      <h1>What's the plan for today?</h1>
     </div>
   );
 }
