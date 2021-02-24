@@ -12,7 +12,9 @@ function Todo() {
     <div
       className={todo.isComplete ? 'todo-row complete' : 'todo-row'}
       key={index}
-    />
+    >
+      <div key={todo.id}></div>
+    </div>
   ));
 }
 
