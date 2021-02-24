@@ -12,7 +12,7 @@ function Todo() {
     <div
       className={todo.isComplete ? 'todo-row complete' : 'todo-row'}
       key={index}
-    ></div>
+    />
   ));
 }
 
