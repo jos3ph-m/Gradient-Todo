@@ -19,7 +19,10 @@ function Todo({ todos, completeTodo }) {
         {todo.text}
       </div>
       <div className="icons">
-        <RiCloseCircleLine onClick={() => removeTodo(todo)} />
+        <RiCloseCircleLine
+          onClick={() => removeTodo(todo)}
+          className="delete-icon"
+        />
         <TiEdit />
       </div>
     </div>
